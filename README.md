@@ -235,8 +235,7 @@ This is the settings.json file:
             // will be sent.
             "url": "https://app.onelogin.com/trust/saml2/http-post/sso/<onelogin_connector_id>",
             // SAML protocol binding to be used when returning the <Response>
-            // message. OneLogin Toolkit supports the HTTP-Redirect binding
-            // only for this endpoint.
+            // message.
             "binding": "urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect"
         },
         // SLO endpoint info of the IdP.
