@@ -9,7 +9,7 @@ from setuptools import setup
 
 setup(
     name='python-saml',
-    version='2.1.2',
+    version='2.1.4',
     description='Onelogin Python Toolkit. Add SAML support to your Python software using this library',
     classifiers=[
         'Development Status :: 4 - Beta',
@@ -32,7 +32,6 @@ setup(
     },
     test_suite='tests',
     install_requires=[
-        'M2Crypto==0.22.3',
         'dm.xmlsec.binding==1.3.2',
         'isodate==0.5.0',
         'defusedxml==0.4.1',
